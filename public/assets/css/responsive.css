@@ -1,0 +1,59 @@
+/* Normal desktop :1200px. */
+@media only screen and (min-width: 1200px){
+
+    .slider-area .stock-text {
+        width: 50%;
+        padding: 0px 130px;
+    }
+
+    .slider-area .appointment-wrapper {
+        width: 50%;
+        top: 60%;
+        padding: 0px 130px;
+    }
+}
+
+
+/* Normal desktop :992px. */
+@media only screen and (min-width: 992px)  and (max-width: 1200px){
+    
+    /* .slider-area {
+        height: 100vh;
+    } */
+
+    .slider-area .stock-text {
+        padding: 0px 30px;
+    }
+    .slider-area .appointment-wrapper {
+        top: 50%;
+        padding: 0px 30px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .slider-area .stock-text {
+        padding: 0px 50px;
+    }
+    .slider-area .appointment-wrapper {
+        top: 40%;
+        padding: 0px 50px;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .d-md-block {
+        display: block !important;
+    }
+    .d-md-none {
+        display: none !important;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) {
+/* .container {width:450px} */
+ 
+}
